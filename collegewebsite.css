@@ -1,0 +1,90 @@
+
+/* Basic Style */
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: navy;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav h2 {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Banner */
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Information Cards */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    width: 220px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}
+
+/* Footer */
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Mobile Screen */
+@media (max-width: 600px) {
+    nav h2 {
+        display: block;
+        margin: 10px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    header {
+        padding: 25px;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
